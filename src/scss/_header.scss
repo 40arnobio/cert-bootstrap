@@ -1,0 +1,53 @@
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+
+  width: 100%;
+  height: $height-header-itens;
+  padding:0 1em;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 5px 20px -2px rgba(0,0,0,.4);
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mark{
+    color: $brand-warning;
+    background-color:transparent;
+  }
+
+  .offcanvas,
+  .date-timer,
+  .user{
+    display: flex;
+    align-items: center;
+  }
+
+   .offcanvas .item{
+      font-size: 2em;
+      color: #444;
+   }
+
+  .date-timer{
+    flex-direction: row;
+    > p{
+      font-size: .8rem;
+      margin-right:2em;
+      margin-bottom: 0;
+    }
+  }
+
+  @include media-breakpoint-up(lg){
+    .fa-bars{display: none}
+    .date-timer{
+      align-items: center !important;
+    }
+   
+  }
+
+}

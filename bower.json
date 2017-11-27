@@ -1,0 +1,29 @@
+{
+  "name": "project",
+  "description": "Bootstrap",
+  "main": "index.js",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "keywords": [
+    "curso",
+    "certificação",
+    "bootstrap"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "components-font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
